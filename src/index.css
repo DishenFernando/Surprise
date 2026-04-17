@@ -1,0 +1,33 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --pink:       #FFB3C6;
+  --deep-pink:  #FF6B9D;
+  --rose:       #FF4D8D;
+  --peach:      #FFD6C0;
+  --cream:      #FFF5F0;
+  --gold:       #FFD700;
+  --soft-brown: #8B4513;
+  --text-dark:  #5A2D4C;
+  --text-mid:   #8B4B6B;
+  --white:      #FFFFFF;
+}
+
+html, body, #root {
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Quicksand', sans-serif;
+  background: var(--cream);
+  overflow-x: hidden;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
